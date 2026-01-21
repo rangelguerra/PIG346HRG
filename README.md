@@ -3,3 +3,4 @@ git init
 git add . //Agregar todo lo que cambió
 git commit -m "Agrega ejercicio de variables"
 git push
+https://github.com/rangelguerra/PIG346HRG
