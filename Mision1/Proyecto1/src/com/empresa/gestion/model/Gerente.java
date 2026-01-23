@@ -20,5 +20,6 @@ public class Gerente extends Empleado{
     public void presentarse() {
         System.out.println("Soy el gerente " + getNombre()  + " y estoy a cargo del departamento de " + departamento);
     }
+
     
 }
