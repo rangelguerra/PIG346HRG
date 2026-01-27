@@ -13,5 +13,18 @@
         "id": 3,
         "name": "Julian",
         "email": "Julian@gmail.com"
+<<<<<<< HEAD
+=======
+    },
+    {
+        "id": 4,
+        "name": "Julian 2",
+        "email": "Julian@gmail.com"
+    },
+    {
+        "id": 5,
+        "name": "Julian 3",
+        "email": "Julian@gmail.com"
+>>>>>>> 9b8e5ed (27enero26)
     }
 ]

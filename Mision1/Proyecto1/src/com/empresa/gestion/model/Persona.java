@@ -44,6 +44,9 @@ public class Persona {
 
          
     }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9b8e5ed (27enero26)
 }

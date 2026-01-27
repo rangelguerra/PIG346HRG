@@ -12,6 +12,11 @@ import { ChangeDetectorRef } from '@angular/core';
   styleUrl: './user.component.css'
 })
 export class UserComponent {
+<<<<<<< HEAD
+=======
+//signals
+
+>>>>>>> 9b8e5ed (27enero26)
 
   users: any[] = [];
 

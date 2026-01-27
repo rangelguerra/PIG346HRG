@@ -37,5 +37,9 @@ public class Gerente extends Empleado{
     return salario+bono;
     }
 
+<<<<<<< HEAD
     
 }
+=======
+    }
+>>>>>>> 9b8e5ed (27enero26)
