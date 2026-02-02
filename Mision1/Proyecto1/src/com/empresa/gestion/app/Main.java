@@ -6,8 +6,8 @@ import Mision1.Proyecto1.src.com.empresa.gestion.service.NominaService;
 
 public class Main {
     public static void main(String[] args){
-        Empleado empleado1 = new Empleado("Juan", 30,true,'M', 5000,160);
-        Gerente gerente1 = new Gerente("Ana", 61,true,'F',10000,160, 2000, "Ventas");
+        Empleado empleado1 = new Empleado(1,"Juan", 30,true,'M', 5000,160);
+        Gerente gerente1 = new Gerente(2,"Ana", 61,true,'F',10000,160, 2000, "Ventas");
         empleado1.presentarse();
         gerente1.presentarse();
         NominaService nomina = new NominaService();
@@ -25,18 +25,14 @@ public class Main {
         System.out.println("Salario anual Empleados: $" + nomina.calcularSalarioAnual(gerente1));
         System.out.println("¿Puede trabajar?" + gerente1.puedeTrabajar());
         System.out.println("¿Puede trabajar?" + gerente1.clasificarEmpleado());
-<<<<<<< HEAD
-          System.out.println("Genero " + gerente1.obtenerTipoEmpleado());
-=======
         System.out.println("Genero " + gerente1.obtenerTipoEmpleado());
 
+        
         double[] salarios={2000,1000,5000};
         System.out.println("Calcular Total Nomina "+nomina.calcularTotalNomina(salarios));
 
-        
         int meses=3;
         nomina.simularPagos(meses);
->>>>>>> 9b8e5ed (27enero26)
 
     }
     

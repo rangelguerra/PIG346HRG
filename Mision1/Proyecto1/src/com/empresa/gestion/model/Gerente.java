@@ -12,9 +12,9 @@ public class Gerente extends Empleado{
         this.bono = bono;
     }
 
-    public Gerente(String nombre, int edad,boolean activo,
+    public Gerente(int id,String nombre, int edad,boolean activo,
     char genero, double salario, int horasTrabajadas,double bono, String departamento) {
-        super(nombre, edad,activo, genero,salario,horasTrabajadas);
+        super(id,nombre, edad,activo, genero,salario,horasTrabajadas);
         this.departamento = departamento;
         this.bono=bono;
     }
@@ -37,9 +37,9 @@ public class Gerente extends Empleado{
     return salario+bono;
     }
 
-<<<<<<< HEAD
+
     
 }
-=======
-    }
->>>>>>> 9b8e5ed (27enero26)
+
+    
+

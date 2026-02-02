@@ -4,8 +4,9 @@ public class Empleado extends Persona{
     private double salario;
     private int horasTrabajadas;
     
-    public Empleado(String nombre, int edad,boolean activo,char genero, double salario, int horasTrabajadas) {
-        super(nombre, edad,activo,genero);
+    
+    public Empleado(int id,String nombre, int edad,boolean activo,char genero, double salario, int horasTrabajadas) {
+        super(id,nombre, edad,activo,genero);
         this.salario = salario;
         this.horasTrabajadas= horasTrabajadas;
     }
@@ -39,7 +40,7 @@ public class Empleado extends Persona{
     }
     // Agregamos reglas de negocio
     public boolean esMayorDeEdad(){
-        return edad>=18;
+        return edad>=18;  
     }
     public boolean puedeTrabajar(){
         return edad >=18 && activo==true;
@@ -67,6 +68,16 @@ public class Empleado extends Persona{
             default:
                 return "No especificado";
         }
+    }
+    public String resumen(){
+        return "ID: "+id+
+                "| Nombre: " + nombre +
+                "| Edad: " + edad +
+                "| Activo: " + activo +
+                "| Genero: "+ genero +
+                "| Salario: " + salario +
+                "| Hora Trabajadas: "+ horasTrabajadas
+                ;
     }
     
 }
